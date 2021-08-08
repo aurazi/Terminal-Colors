@@ -1,7 +1,7 @@
 // Refer to: https://docs.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences?redirectedfrom=MSDN
 // Syntax: \u{0001b}[38;2;R;G;BmTEXT\u{0001b}[0m
 // With Background Color: \u{0001b}[48;2;R;G;B;38;2;R;G;BmTEXT\u{0001b}[0m
-// 001b  : Unicode Character 'ESCAPE' (U+0001B)
+// 0001b  : Unicode Character 'ESCAPE' (U+0001B)
 // Or use \x1b
 
 struct Color(u8, u8, u8);
