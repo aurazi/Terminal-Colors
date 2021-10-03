@@ -46,7 +46,7 @@ impl std::fmt::Display for StringColor {
             "\u{0001b}[48;2;{};{};{};38;2;{};{};{}m{}\u{0001b}[0m",
             self.back.0,
             self.back.1,
-            self.back.0,
+            self.back.2,
             self.color.0,
             self.color.1,
             self.color.2,
